@@ -1,0 +1,45 @@
+# compiled output
+my-app/dist
+my-app/tmp
+my-app/out-tsc
+
+# Only exists if Bazel was run
+my-app/bazel-out
+
+# dependencies
+my-app/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+my-app/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+my-app/.sass-cache
+my-app/connect.lock
+my-app/coverage
+my-app/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+my-app/typings
+
+# System Files
+.DS_Store
+Thumbs.db
